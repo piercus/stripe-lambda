@@ -19,7 +19,7 @@ module.exports = function(grunt) {
           "amount" : 2000,
           "currency" : "usd",
           "description" : "test description",
-          "receipt_email" : process.env.RECEIPT_EMAIL
+          "UDID" : "ThisIsaFakeUDID"
       }, null, 4) , 'utf8', function(err){
         done();
       });
